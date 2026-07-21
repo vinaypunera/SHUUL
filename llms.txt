@@ -1,0 +1,33 @@
+# SHUUL Technologies
+
+> SHUUL Technologies is a next-gen AI SaaS product company based in Pune, Maharashtra, India. We build and own AI products that make complexity invisible. Our flagship product is SuperHospitality, an AI concierge for hotels.
+
+DPIIT Startup India recognized. Corporate domain: shuul.io
+
+## Company
+
+- Entity: SHUUL Technologies LLP (registered in India)
+- Corporate domain: shuul.io
+- Location: Pune, Maharashtra, India
+- Recognition: DPIIT Startup India
+
+## Products
+
+### SuperHospitality — AI concierge for hotels
+
+Guests send requests via WhatsApp or a web app using text, voice notes, or calls. The AI understands the request, routes the task to the right staff member, and closes the loop — no app downloads, no missed calls, no manual relay. Managers get real-time operational visibility.
+
+## Pages
+
+- [Home](https://shuul.io/): Company overview and product portfolio
+- [Products](https://shuul.io/products): The AI products we build and own
+- [SuperHospitality](https://shuul.io/products/superhospitality): Product overview and how it works
+- [About](https://shuul.io/about): Company overview and recognition
+- [Contact](https://shuul.io/contact): Get in touch
+- [Privacy](https://shuul.io/privacy): Corporate website privacy policy
+- [Cookies](https://shuul.io/cookies): Corporate cookie policy
+- [Terms](https://shuul.io/terms): Corporate terms and conditions
+
+## Related
+
+- [Sitemap](https://shuul.io/sitemap.xml): All public URLs

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://shuul.io
+Sitemap: https://shuul.io/sitemap.xml
