@@ -180,6 +180,7 @@
   }
 
   // Global functions
+  window.link = link;
   window.openModal = function () {
     document.getElementById('betaModal').classList.add('is-open');
     document.body.style.overflow = 'hidden';

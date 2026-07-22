@@ -248,8 +248,9 @@
       function openScreenshot(step) {
         var data = screenshotData[step];
         if (!data) return;
+        var src = (typeof window.link === 'function') ? window.link(data.src) : data.src;
         document.getElementById('screenshotTitle').textContent = data.title;
-        document.getElementById('screenshotImage').src = data.src;
+        document.getElementById('screenshotImage').src = src;
         document.getElementById('screenshotImage').alt = data.alt;
         document.getElementById('screenshotModal').classList.add('is-open');
         document.body.style.overflow = 'hidden';
