@@ -169,14 +169,21 @@
   }
 
   function renderBackToSiteButton() {
-    if (BASE === '/' || document.getElementById('siteReturnLink')) return;
+    var idx = BASE.indexOf('/products/superhospitality');
+    if (idx === -1) return;
 
-    var linkEl = document.createElement('a');
-    linkEl.className = 'site-return-link';
-    linkEl.id = 'siteReturnLink';
-    linkEl.href = '/products';
-    linkEl.textContent = 'Back to Site';
-    document.body.appendChild(linkEl);
+    var root = BASE.slice(0, idx);
+    var targetHref = (root || '') + '/products/' + (root ? 'index.html' : '');
+
+    var linkEl = document.getElementById('siteReturnLink');
+    if (!linkEl) {
+      linkEl = document.createElement('a');
+      linkEl.className = 'site-return-link';
+      linkEl.id = 'siteReturnLink';
+      linkEl.textContent = 'Back to Site';
+      document.body.appendChild(linkEl);
+    }
+    linkEl.href = targetHref;
   }
 
   // Global functions

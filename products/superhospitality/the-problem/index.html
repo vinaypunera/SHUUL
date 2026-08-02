@@ -60,7 +60,10 @@
       (function () {
         var linkEl = document.getElementById('siteReturnLink');
         if (!linkEl) return;
-        if (window.location.pathname.indexOf('/products/superhospitality/') === 0) {
+        var idx = window.location.pathname.indexOf('/products/superhospitality');
+        if (idx !== -1) {
+          var root = window.location.pathname.slice(0, idx);
+          linkEl.href = (root || '') + '/products/' + (root ? 'index.html' : '');
           linkEl.style.display = 'inline-flex';
         }
       })();
