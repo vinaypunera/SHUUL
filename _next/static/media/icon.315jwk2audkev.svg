@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0a0a0a"/>
+  <!-- Outer bronze loop -->
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#765842" stroke-width="12"/>
+  <!-- Middle bronze loop -->
+  <circle cx="256" cy="256" r="120" fill="none" stroke="#b08d6a" stroke-width="6"/>
+  <!-- Inner light loop -->
+  <circle cx="256" cy="256" r="102" fill="none" stroke="#e3cdb2" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Subtle center glow approximation -->
+  <circle cx="256" cy="256" r="48" fill="#b08d6a" opacity="0.1"/>
+</svg>
