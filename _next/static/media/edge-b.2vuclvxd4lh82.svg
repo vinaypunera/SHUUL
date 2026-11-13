@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="72" viewBox="0 0 1440 72" preserveAspectRatio="none">
+  <!-- Second dry-brush edge so consecutive joins don't repeat.
+       Placeholder until the commissioned edge lands (docs/artwork-prompts.md #5). -->
+  <filter id="r" x="-5%" y="-40%" width="110%" height="180%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.01 0.28" numOctaves="3" seed="12" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <path filter="url(#r)" fill="#000" d="M-60,30 C 200,46 420,20 700,36 C 930,48 1120,22 1320,38 C 1400,44 1460,34 1500,32 L1500,140 L-60,140 Z"/>
+</svg>

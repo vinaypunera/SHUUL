@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <!--
+    Impasto relief: stretched noise (brush streaks), warped by a slow noise field,
+    then lit from the top-left. Output is centred on 50% grey so it can be laid
+    over any ground with mix-blend-mode: soft-light / overlay.
+    Placeholder until the commissioned tile lands (docs/artwork-prompts.md #2).
+  -->
+  <filter id="i" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.007 0.032" numOctaves="4" seed="3" stitchTiles="stitch" result="streak"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.026 0.011" numOctaves="3" seed="9" stitchTiles="stitch" result="dab"/>
+    <feComposite in="streak" in2="dab" operator="arithmetic" k1="0" k2="0.72" k3="0.38" k4="-0.05" result="brush"/>
+    <feDiffuseLighting in="brush" surfaceScale="5" diffuseConstant="1" lighting-color="#ffffff" result="lit">
+      <feDistantLight azimuth="225" elevation="52"/>
+    </feDiffuseLighting>
+    <feColorMatrix in="lit" type="matrix" values="1.7 0 0 0 -0.76  1.7 0 0 0 -0.76  1.7 0 0 0 -0.76  0 0 0 0 1"/>
+  </filter>
+  <rect width="720" height="720" filter="url(#i)"/>
+</svg>

@@ -1,33 +1,31 @@
-# SHUUL Technologies
+# SHUUL
 
-> SHUUL Technologies is a next-gen AI SaaS product company based in Pune, Maharashtra, India. We build and own AI products that make complexity invisible. Our flagship product is SuperHospitality, an AI concierge for hotels.
+> We build software that makes complexity invisible. SHUUL Technologies LLP is a small team in Pune, Maharashtra, India, engineering human-fluent, AI-native systems. We make a small number of products and look after them.
 
-DPIIT Startup India recognized. Corporate domain: shuul.io
-
-## Company
-
-- Entity: SHUUL Technologies LLP (registered in India)
-- Corporate domain: shuul.io
-- Location: Pune, Maharashtra, India
-- Recognition: DPIIT Startup India
+Site: https://shuul.io
 
 ## Products
 
-### SuperHospitality — AI concierge for hotels
+- [Murmie](https://murmie.com/): Product 00. Free, private, on-device voice dictation for macOS (Apple silicon, no account). Double-tap Right ⌘, speak, and your words appear wherever you're typing.
+- [SuperHospitality](https://superhospitality.in/): Product 01, live. "Run your hotel in perfect sync." An AI concierge your guests already know how to use, with a real person one tap away. It works over voice, WhatsApp or a web app, in the guest's language, on top of the property system the hotel already runs.
 
-Guests send requests via WhatsApp or a web app using text, voice notes, or calls. The AI understands the request, routes the task to the right staff member, and closes the loop — no app downloads, no missed calls, no manual relay. Managers get real-time operational visibility.
+## Company
+
+- Legal entity: SHUUL Technologies LLP, Pune, Maharashtra, India
+- Founder: Vinay Punera (https://www.linkedin.com/in/vinaypunera/)
+- DPIIT-recognised startup under the Startup India initiative
+- Member of Razorpay Rize; selected for AWS Activate and Google for Startups
+- SuperHospitality is running in live hotels in India
 
 ## Pages
 
-- [Home](https://shuul.io/): Company overview and product portfolio
-- [Products](https://shuul.io/products): The AI products we build and own
-- [SuperHospitality](https://shuul.io/products/superhospitality): Product overview and how it works
-- [About](https://shuul.io/about): Company overview and recognition
-- [Contact](https://shuul.io/contact): Get in touch
-- [Privacy](https://shuul.io/privacy): Corporate website privacy policy
-- [Cookies](https://shuul.io/cookies): Corporate cookie policy
-- [Terms](https://shuul.io/terms): Corporate terms and conditions
+- [Home](https://shuul.io/): What we build and our products (see the #products section)
+- [About](https://shuul.io/about): How we work, the team, and recognition
+- [Contact](https://shuul.io/contact): Book a SuperHospitality demo or ask about our products
+- [Privacy](https://shuul.io/privacy): Privacy policy
+- [Cookies](https://shuul.io/cookies): Cookie policy
+- [Terms](https://shuul.io/terms): Terms for using the website
 
-## Related
+## Optional
 
 - [Sitemap](https://shuul.io/sitemap.xml): All public URLs
